@@ -23,7 +23,7 @@ FROM before_crash_table AS b
 JOIN after_crash_table AS a
 ON b.NEIGHBORHOOD = a.NEIGHBORHOOD
 ORDER BY diff DESC
-LIMIT 10; 
+; 
 
 
 
