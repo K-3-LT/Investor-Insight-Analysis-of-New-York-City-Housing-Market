@@ -1,5 +1,5 @@
 # Option 2
-# This question is for finding if the residential construction’s increase match the price increase.
+# Checking the total sale price of residential buildings with the U.S. National Home Price Index (HPI) to see what is happening around the great financial crisis of 2008.
 WITH a AS (
 SELECT EXTRACT(YEAR FROM DATE) AS year, EXTRACT(MONTH FROM DATE) AS month, CSUSHPISA AS home_price_index  --retrieve the index related to the date
 FROM `ba775-teamproject-b1.teamproject.home_price_index`
